@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Résumé</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
@@ -275,10 +276,11 @@
         </div>
         <div class="container">
           <div class="resume__block">
-            <div class="skills">
-              
+            <div class="skills"> 
               <table>
                 <thead><h3 class="skills__header">Skills</h3>
+                <th>Name</th>
+                <th>Level</th>
                 <th>Name</th>
                 <th>Level</th>
                 </thead>
@@ -286,29 +288,117 @@
                   <tr>
                     <td><p class="skills__text">Java</p></td>
                     <td>&#x1F7E2;&#x1F7E2;&#x1F7E2;&#x1F7E2;&#x1F7E2;</td>
-                  </tr>
-                  <tr>
-                    <td><p class="skills__text">SpringFramework</p></td>
+                    <td><p class="skills__text">Spring<br>Framework</p></td>
                     <td>&#x1F7E2;&#x1F7E2;&#x1F7E2;&#x1F7E2;&#x1F534;</td>
                   </tr>
                   <tr>
                     <td><p class="skills__text">Html</p></td>
                     <td>&#x1F7E2;&#x1F7E2;&#x1F7E2;&#x1F7E2;&#x1F534;</td>
-                  </tr>
-                  <tr>
                     <td><p class="skills__text">CSS</p></td>
                     <td>&#x1F7E2;&#x1F7E2;&#x1F7E2;&#x1F534;&#x1F534;</td>
                   </tr>
                   <tr>
                     <td><p class="skills__text">Javascript</p></td>
                     <td>&#x1F7E2;&#x1F7E2;&#x1F7E2;&#x1F7E2;&#x1F534;</td>
-                  </tr>
-                  <tr>
                     <td><p class="skills__text">Angular</p</td>
                     <td>&#x1F7E2;&#x1F7E2;&#x1F7E2;&#x1F534;&#x1F534;</td>
                   </tr>
                 </tbody>
               </table>
+            </div>
+          </div>
+        </div>
+        <h3 class="experiences__title">Experience</h3>
+        <div class="container">
+          <div class="resume__block">
+            <div class="main-info fh">
+              <div class="experiences">
+                  <div class="experiences__company">
+                    <div class="experiences__company-header">
+                      <span class="experiences__company-header-durability">july 2023 – september 2023</span>
+                      <h3 class="experiences__company-header-name">HIC MEDIA</h3>
+                    </div>
+                    <div class="experiences__company-project">
+                      <span class="experiences__company-project-role"> Trainee Frontend Developer </span>
+                      <h3 class="experiences__company-project-name">Tradeportal project</h3>
+                      <ul class="experiences__company-project-responsibilities">
+                        <li>Designing Html templates</li>
+                        <li>Configuring google analytics</li>
+                        <li>Fixing bugs in React project</li>
+                        <li>Working with Laravel</li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+              <div class="experiences">
+                  <div class="experiences__company">
+                    <div class="experiences__company-header">
+                      <span class="experiences__company-header-durability">august 2023 – november 2023</span>
+                      <h3 class="experiences__company-header-name">GeeksForLess Inc.</h3>
+                    </div>
+                    <div class="experiences__company-project">
+                      <span class="experiences__company-project-role"> Student intern </span>
+                      <h3 class="experiences__company-project-name">Java Internship courses</h3>
+                      <ul class="experiences__company-project-responsibilities">
+                        <li>Developed Java SpringBoot application</li>
+                        <li>Write unit and integration tests with JUnit5 and Mockito</li>
+                        <li>Designing Frontend client with Thymeleaf</li>
+                        <li>Configuring SpringSecurity</li>
+                        <li>Deployed project in AWS using Docker</li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+              <div class="experiences">
+                  <div class="experiences__company">
+                    <div class="experiences__company-header">
+                      <span class="experiences__company-header-durability">november 2021 – february 2022</span>
+                      <h3 class="experiences__company-header-name">SoftServe</h3>
+                    </div>
+                    <div class="experiences__company-project">
+                      <span class="experiences__company-project-role"> Student intern </span>
+                      <h3 class="experiences__company-project-name">Java Internship courses</h3>
+                      <ul class="experiences__company-project-responsibilities">
+                        <li>Developed Java SpringBoot application</li>
+                        <li>Write unit and integration tests with JUnit5 and Mockito</li>
+                        <li>Designing Frontend client with Angular</li>
+                        <li>Configuring SpringSecurity</li>
+                        <li>Developed OAuth2 authorization with google services</li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="resume__block">
+            <div class="main-info fh">
+              <div class="additional-info fv">
+                <div class="additional-info fh">
+                  <div class="additional-info__education">
+                    <h3 class="additional-info__education-header">Education</h3>
+                    <div class="additional-info__education-university">
+                      <span class="additional-info__education-university-durability"> 2012 -2017 </span>
+                      <h3 class="additional-info__education-university-speciality">Photonics</h3>
+                      <p class="additional-info__education-university-name">Lviv Polytechnic National University</p>
+                    </div>
+                  </div>
+                  <div class="additional-info__languages">
+                    <h3 class="additional-info__languages-header">Languages</h3>
+                    <p class="additional-info__languages-item">Ukrainian (native)</p>
+                    <p class="additional-info__languages-item">English (upper-intermediate)</p>
+                    <p class="additional-info__languages-item">German (B2/C1)</p>
+                  </div>
+                  <div class="additional-info__hobbies">
+                    <h3 class="additional-info__hobbies-header">Hobbies</h3>
+                    <p class="additional-info__hobbies-item">&#9917;Football</p>
+                    <p class="additional-info__hobbies-item">&#127946;Swimming</p>
+                    <p class="additional-info__hobbies-item">&#127918;Computer games</p>
+                    <p class="additional-info__hobbies-item">&#127936;Basketball</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
