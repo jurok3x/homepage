@@ -181,6 +181,12 @@
     text-align: left;
     margin-bottom: 20px;
   }
+
+  .experiences__title {
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 20px;
+  }
   
   .experiences__company-header-durability {
     color: var(--durability-text-color);
@@ -265,6 +271,20 @@
     color: var(--secondary-text-color);
   }
 
+  .additional-info__hobbies {
+    margin-bottom: 20px;
+  }
+  
+  .additional-info__hobbies-header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .additional-info__hobbies-item {
+    color: var(--secondary-text-color);
+  }
+
   /* Tabs */
   .tab {
     overflow: hidden;
@@ -304,9 +324,10 @@
     to {opacity: 1;}
   }
 
+  /* Tables */
   table {
     border-collapse: collapse;
-    width: 50%;
+    width: 100%;
     margin: 20px;
 }
 
@@ -314,6 +335,13 @@ th, td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
+}
+
+@media screen and (max-width: 576px) {
+  td {
+    max-width: 56px;
+    font-size: x-small;
+}
 }
 
 th {
