@@ -317,8 +317,13 @@ th {
 .certificates {
   padding: 20px;
   padding-top: 0;
+  padding-bottom: 0;
 }
 
 .certificate {
   width: 50%;
+}
+
+p {
+  margin-bottom: 0.5rem !important;
 }
